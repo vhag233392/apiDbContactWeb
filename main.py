@@ -15,7 +15,7 @@ app.add_middleware(
     allow_headers=["*"],     # Permitir todos los headers
 )
 
-DATABASE_URL = "postgresql://old:old@localhost/ContactWebDB"  # Cambia esto según tu configuración
+DATABASE_URL = "postgresql://postgres:postgres@contactwebdb2.c9ae8kiacuy9.us-east-1.rds.amazonaws.com:5432/postgres"  # Cambia esto según tu configuración
 
 
 
